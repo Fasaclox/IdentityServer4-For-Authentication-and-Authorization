@@ -18,7 +18,7 @@ namespace BankIdServer4.IdentityConfiguration
           ClientSecrets = {new Secret("SuperSecretPassword".Sha256())},
           AllowedScopes = {"CustomerMicroService.read", "CustomerMicroService.write" }
         },
-
+        
         // interactive client using code flow + pkce
         new Client
         {
